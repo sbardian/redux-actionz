@@ -1,0 +1,48 @@
+{
+  "name": "redux-actionz",
+  "version": "1.0.0",
+  "description": "Manage action creators, action effects and reducers in an elegant and efficient maneer.",
+  "main": "./lib/index.js",
+  "jsnext:main": "./es/index.js",
+  "module": "./es/index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape test.ts | faucet",
+    "es-and-types": "tsc --outDir es --module es6 index.ts --declaration --declarationDir .",
+    "commonjs": "tsc --outDir lib --module commonjs index.ts",
+    "prepublishOnly": "npm run es-and-types && npm run commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenlynx/redux-actionz.git"
+  },
+  "keywords": [
+    "redux",
+    "actions",
+    "reducers"
+  ],
+  "author": "Arkadiusz Michowski <arkadiusz@michowski.com> (https://github.com/goldenlynx)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldenlynx/redux-actionz/issues"
+  },
+  "files": [
+    "es",
+    "lib",
+    "index.ts"
+  ],
+  "homepage": "https://github.com/goldenlynx/redux-actionz#readme",
+  "devDependencies": {
+    "@types/tape": "^4.2.30",
+    "faucet": "0.0.1",
+    "redux": "^3.7.2",
+    "tape": "^4.8.0",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@types/object-assign": "^4.0.30",
+    "object-assign": "^4.1.1"
+  }
+}

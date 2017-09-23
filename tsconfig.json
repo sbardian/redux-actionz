@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es6"
+    ],
+    "module": "commonjs",
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  },
+  "files": [
+    "./index.ts"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "linebreak-style": true,
+    "max-line-length": [true, 85],
+    "ordered-imports": false,
+    "semicolon": [true, "always"],
+    "quotemark": [true, "single"],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false,
+    "interface-name": [false, "never-prefix"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  },
+  "rulesDirectory": [],
+}
