@@ -2,6 +2,12 @@
 
 A library to manage action creators, action effects and reducers in an elegant and efficient maneer.
 
+Install with:
+```sh
+npm i -S redux-actionz
+```
+See [usage](#usage) for examples.
+
 ## Motivation
 
 This library was meant to provide all the brilliant features of [Redux actions](https://github.com/Reduxactions/Redux-actions), but with some improvements and new nice-to-have features. I couldn't contribute with my ideas without completely breaking the already existing API, so I've decided to create a new library.
