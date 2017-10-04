@@ -1,6 +1,6 @@
 # Redux actionz
 
-A library to manage action creators, action effects and reducers in an elegant and efficient maneer.
+A library to manage action creators, action effects and reducers in an elegant and efficient manner.
 
 Install with:
 ```sh
